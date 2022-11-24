@@ -1,0 +1,25 @@
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+}
+
+/* task list */
+
+.task__list{
+    max-width: 450px;
+    min-height: 500px;
+    background-color: #d0d0d5;
+    padding: 1.5em;
+    border-radius: 1.5em;    
+}
+
+h1{
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 1em 0;
+}

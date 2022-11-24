@@ -1,0 +1,31 @@
+.form__task{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.input__task{
+    width: 80%;
+    font-size: 18px;
+    color: gray;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #00471b;
+    outline: none;
+
+}
+.button__task{
+    width: 20%;
+    padding: 16px;
+    font-size: 18px;
+    font-style: Roboto, sans-serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: #00471b;
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
